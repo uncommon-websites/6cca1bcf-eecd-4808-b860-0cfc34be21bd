@@ -6,45 +6,40 @@
 @import "./theme.css";
 
 @theme {
-/* Colors - JourneyGo Brand Palette */
-/* Neutral Grays */
---color-gray-50: oklch(0.985 0.002 106);
---color-gray-100: oklch(0.97 0.002 106);
---color-gray-200: oklch(0.96 0.002 106);
---color-gray-300: oklch(0.93 0.003 106);
---color-gray-400: oklch(0.85 0.004 106);
---color-gray-500: oklch(0.45 0.005 106);
---color-gray-600: oklch(0.28 0.005 106);
---color-gray-700: oklch(0.22 0.005 106);
---color-gray-800: oklch(0.18 0.005 106);
---color-gray-900: oklch(0.15 0.005 106);
---color-gray-950: oklch(0.13 0.005 106);
-
-/* Primary - Warm Yellow (#FFC84B) */
---color-primary-50: oklch(0.98 0.03 95);
---color-primary-100: oklch(0.96 0.06 95);
---color-primary-200: oklch(0.93 0.10 92);
---color-primary-300: oklch(0.90 0.14 90);
---color-primary-400: oklch(0.87 0.16 88);
---color-primary-500: oklch(0.84 0.17 85);
---color-primary-600: oklch(0.81 0.17 83);
---color-primary-700: oklch(0.72 0.15 80);
---color-primary-800: oklch(0.62 0.13 78);
---color-primary-900: oklch(0.52 0.11 75);
---color-primary-950: oklch(0.42 0.09 73);
-
-/* Secondary - Warm Cream/Beige (#F7F5F0) */
---color-secondary-50: oklch(0.99 0.008 90);
---color-secondary-100: oklch(0.97 0.012 88);
---color-secondary-200: oklch(0.94 0.015 86);
---color-secondary-300: oklch(0.90 0.020 84);
---color-secondary-400: oklch(0.82 0.028 82);
---color-secondary-500: oklch(0.72 0.035 80);
---color-secondary-600: oklch(0.62 0.042 78);
---color-secondary-700: oklch(0.52 0.048 76);
---color-secondary-800: oklch(0.42 0.052 74);
---color-secondary-900: oklch(0.35 0.055 72);
---color-secondary-950: oklch(0.28 0.058 70);
+/* Colors */
+--color-gray-50: oklch(0.985 0.001 106.423);
+--color-gray-100: oklch(0.97 0.001 106.424);
+--color-gray-200: oklch(0.923 0.003 48.717);
+--color-gray-300: oklch(0.869 0.005 56.366);
+--color-gray-400: oklch(0.709 0.01 56.259);
+--color-gray-500: oklch(0.553 0.013 58.071);
+--color-gray-600: oklch(0.444 0.011 73.639);
+--color-gray-700: oklch(0.374 0.01 67.558);
+--color-gray-800: oklch(0.268 0.007 34.298);
+--color-gray-900: oklch(0.216 0.006 56.043);
+--color-gray-950: oklch(0.147 0.004 49.25);
+--color-primary-50: oklch(0.987 0.022 95.277);
+--color-primary-100: oklch(0.962 0.059 95.617);
+--color-primary-200: oklch(0.924 0.12 95.746);
+--color-primary-300: oklch(0.879 0.169 91.605);
+--color-primary-400: oklch(0.828 0.189 84.429);
+--color-primary-500: oklch(0.769 0.188 70.08);
+--color-primary-600: oklch(0.666 0.179 58.318);
+--color-primary-700: oklch(0.555 0.163 48.998);
+--color-primary-800: oklch(0.473 0.137 46.201);
+--color-primary-900: oklch(0.414 0.112 45.904);
+--color-primary-950: oklch(0.279 0.077 45.635);
+--color-secondary-50: oklch(0.969 0.015 12.422);
+--color-secondary-100: oklch(0.941 0.03 12.58);
+--color-secondary-200: oklch(0.892 0.058 10.001);
+--color-secondary-300: oklch(0.81 0.117 11.638);
+--color-secondary-400: oklch(0.712 0.194 13.428);
+--color-secondary-500: oklch(0.645 0.246 16.439);
+--color-secondary-600: oklch(0.586 0.253 17.585);
+--color-secondary-700: oklch(0.514 0.222 16.935);
+--color-secondary-800: oklch(0.455 0.188 13.697);
+--color-secondary-900: oklch(0.41 0.159 10.272);
+--color-secondary-950: oklch(0.271 0.105 12.094);
 
 /* Typography */
 --font-family: "Inter";
