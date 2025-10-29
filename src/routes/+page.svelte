@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconUsers from "~icons/lucide/users";
+	import IconZap from "~icons/lucide/zap";
+	import IconCalendarCheck from "~icons/lucide/calendar-check";
+	import IconMap from "~icons/lucide/map";
+	import IconUserPlus from "~icons/lucide/user-plus";
+	import IconSmartphone from "~icons/lucide/smartphone";
 </script>
 
 <Hero
@@ -36,60 +44,84 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Group travel, reimagined"
+	text="JourneyGo helps young professionals turn spontaneous weekend getaway ideas into reality. We coordinate your friend group in real-time, curate destinations that match everyone's vibe, and eliminate the planning paralysis that kills most trips before they start."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Kapoor",
+			position: "Marketing Manager",
+			company: "Zenith Digital",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We went from endless group chats to a confirmed Napa trip in under 20 minutes. JourneyGo eliminated the back-and-forth that usually kills our weekend plans.",
+			image: "/generated/image-candid-environmental-portrait-of-a-confi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Chen",
+			position: "Product Designer",
+			company: "Atlas Labs",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Finally coordinated our friend group's bachelor party without the usual planning chaos. Real-time voting on destinations saved us hours of indecision.",
+			image: "/generated/image-candid-environmental-portrait-of-a-frien.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Ramirez",
+			position: "Software Engineer",
+			company: "Frontier Tech",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Spontaneous coastal getaway with college friends that actually happened. We discovered destinations we'd never have found searching individually.",
+			image: "/generated/image-candid-environmental-portrait-of-a-confi.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Plan trips together, not alone"
+	subtitle="Everything your friend group needs to turn ideas into adventures"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Real-time group coordination",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"See everyone's availability and preferences instantly, so you spend less time texting back and forth and more time actually going places.",
+			icon: IconUsers,
+			imageSrc: "/generated/image-young-professionals-in-their-20s-and-30s.webp"
 		},
 		{
-			title: "Data Analysis",
+			title: "Spontaneous trip discovery",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Browse curated weekend destinations that match your group's vibe and budget, designed for friends who decide Thursday to leave Friday.",
+			icon: IconZap,
+			imageSrc: "/generated/image-a-diverse-group-of-friends-in-their-late.webp"
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Quick decision-making",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Vote on destinations, activities, and dates with simple swipes that eliminate planning paralysis and keep momentum alive.",
+			icon: IconCalendarCheck,
+			imageSrc: "/generated/image-a-group-of-friends-in-a-warmly-lit-urban.webp"
+		},
+		{
+			title: "Pre-built itinerary templates",
+			description:
+				"Start with proven weekend plans created by real travelers, then customize them to fit your group's style without building from scratch.",
+			icon: IconMap,
+			imageSrc: "/generated/image-friends-in-their-late-20s-exploring-a-ne.webp"
+		},
+		{
+			title: "Seamless friend invites",
+			description:
+				"Add friends with a single tap and watch your travel circle grow as trips get easier to coordinate with the people you actually want to go with.",
+			icon: IconUserPlus,
+			imageSrc: "/generated/image-a-group-of-friends-in-their-late-20s-to-.webp"
+		},
+		{
+			title: "Mobile-first experience",
+			description:
+				"Plan entire trips from your phone while commuting, waiting in line, or lounging on the couch because spontaneous doesn't mean complicated.",
+			icon: IconSmartphone,
+			imageSrc: "/generated/image-young-professionals-on-a-road-trip-adven.webp"
 		}
 	]}
 />
