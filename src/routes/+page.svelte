@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Turn spontaneous travel ideas into weekend adventures"
+	subtitle="Coordinate with friends in real-time and discover destinations together, no planning paralysis required"
+	imageSrc="/generated/image-a-diverse-group-of-3-4-young-professiona.webp"
+	callsToAction={[
+		{
+			href: "#",
+			label: "Start planning"
+		},
+		{
+			href: "#",
+			label: "See how it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by teams at"
+	logoUrls={[
+		'https://cdn.brandfetch.io/airbnb.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/wework.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/bumble.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/spotify.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
